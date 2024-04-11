@@ -1,0 +1,29 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    min-width: 320px;
+    font-family: "Roboto", sans-serif;
+}
+
+/*//////////////////прижать footer к низу start////////////////////////////////////*/
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main.main{
+    flex: 1 1 auto;
+}
+
+/*//////////////////прижать footer к низу end////////////////////////////////////*/
+
+
+
+
+
+
+/*2 0-17*/
