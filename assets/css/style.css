@@ -31,6 +31,26 @@ img{
     height: auto;
 }
 
+.btn-warning{
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+}
+
+.btn-outline-warning{
+    border-color: var(--accent-color);
+}
+
+.btn-outline-warning:hover {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+}
+
+.bg-warning{
+    background-color: var(--accent-color) !important;
+}
+
+
+
 /*==================прижать footer к низу start - ОБЩИЕ ПРАВИЛА==================*/
 
 .wrapper{
@@ -114,9 +134,19 @@ ul.social-icons a:hover{
     color: var(--contrast-color);
 }
 
+.cart-buttons .btn{
+    color: var(--contrast-color);
+    transition: all 0.3s;
+}
+
+.cart-buttons .btn:hover {
+    border: 1px solid var(--contrast-color);
+}
+
+
 /*==================правила для HEADER - end==================*/
 
 
 
 
-/*3 15-00*/
+/*3 25-00*/
