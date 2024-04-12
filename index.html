@@ -16,57 +16,95 @@
 
     <div class="wrapper">
         <header class="header">
-            <div class="header-top">
+            <div class="header-top py-1">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="header-top-phone">
+                        <div class="col-6 col-sm-4">
+                            <div class="header-top-phone d-flex align-items-center h-100">
                                 <i class="fa-solid fa-square-phone-flip"></i>
-                                <a href="tel:+79180000000">+7(918)000-00-00</a>
+                                <a class="ms-2 py-1" href="tel:+79180000000">+7(918)000-00-00</a>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <ul class="social-icons">
+                        <div class="col-sm-4 d-none d-sm-block">
+                            <ul class="social-icons d-flex justify-content-center">
                                 <li class="social-icon">
-                                    <i class="fa-brands fa-youtube" style="color: #74C0FC;"></i>
+                                    <a href="#">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
                                 </li>
                                 <li class="social-icon">
-                                    <i class="fa-brands fa-instagram" style="color: #74C0FC;"></i>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
                                 </li>
                                 <li class="social-icon">
-                                    <i class="fa-brands fa-vk" style="color: #74C0FC;"></i>
+                                    <a href="#">
+                                        <i class="fa-brands fa-vk"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-4">
-                            <div class="btn-group">
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Account
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                      <li><a class="dropdown-item" href="#">Sign In</a></li>
-                                      <li><a class="dropdown-item" href="#">Sign Up</a></li>
-                                    </ul>
+                        <div class="col-6 col-sm-4">
+                            <div class="header-top-account d-flex justify-content-end">
+                                <div class="btn-group me-2">
+                                    <div class="dropdown">
+                                        <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Account
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Sign In</a></li>
+                                          <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="btn-group">
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      En
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                      <li><a class="dropdown-item" href="#">Ru</a></li>
-                                      <li><a class="dropdown-item" href="#">De</a></li>
-                                    </ul>
+                                <div class="btn-group">
+                                    <div class="dropdown">
+                                        <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          En
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Ru</a></li>
+                                          <li><a class="dropdown-item" href="#">De</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> <!--header-top-->
+
+            <div class="header-middle bg-white py-3">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#" class="header-logo h1">E-shop</a>
+                        </div>
+                        <div class="col-md-4">
+                            <form action="">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Searching..." aria-label="Searching..." aria-describedby="button-search">
+                                    <button class="btn btn-outline-warning" type="submit" id="button-search">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                  </div>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="btn">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+
+                            <button class="btn">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div><!--header-middle-->
         </header>
+                    
 
 
 
