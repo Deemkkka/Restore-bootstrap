@@ -175,11 +175,25 @@ ul.social-icons a:hover{
     margin-top: 7px;
 }
 
+
+
 /* .header-bottom .navbar .nav-link{
     padding: 1rem;
 } */
 
 /*==================правила для HEADER - end==================*/
+/*==================правила для MAIN - end==================*/
+
+.carousel-caption{
+    text-shadow: 0 0 2px rgba(0, 0, 0, 1);
+}
+
+.carousel-caption p{
+    font-size: 1.5rem;
+}
+
+/*==================правила для MAIN - end==================*/
+
 
 @media only screen and (min-width: 992px){
     .header-bottom .navbar .dropdown-menu-end{
@@ -199,4 +213,4 @@ ul.social-icons a:hover{
 }
 
 
-/*5 00-00*/
+/*5 00-11*/
