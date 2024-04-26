@@ -63,6 +63,32 @@ main.main{
     flex: 1 1 auto;
 }
 
+section {
+    padding: 50px 0;
+}
+
+.section-title {
+    position: relative;
+    text-transform: uppercase;
+    color: var(--contrast-color);
+    font-weight: 700;
+}
+
+.section-title span {
+    background-color: var(--bg-color);
+    padding-right: 1rem;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 50%;
+    left: 0;
+    border-top:  1px dashed var(--text-color);
+    z-index: -1;
+}
+
 .btn, 
 .dropdown-menu,
 .form-control {
@@ -182,7 +208,9 @@ ul.social-icons a:hover{
 } */
 
 /*==================правила для HEADER - end==================*/
-/*==================правила для MAIN - end==================*/
+/*==================правила для MAIN - start==================*/
+
+/*==================carousel - start==================*/
 
 .carousel-caption{
     text-shadow: 0 0 2px rgba(0, 0, 0, 1);
@@ -191,6 +219,36 @@ ul.social-icons a:hover{
 .carousel-caption p{
     font-size: 1.5rem;
 }
+/*==================carousel - end==================*/
+
+/*==================advantages - start==================*/
+
+.advantages .items {
+    margin-top: 50px;
+}
+
+.advantages .items .item {
+    background-color:#fff;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.advantages .items .item:hover {
+    box-shadow: 0 15px 30px -20px rgb(0, 0, 0, 0.5);
+}
+
+.advantages i {
+    font-size: 70px;
+    color: var(--accent-color);
+    margin-right: 1rem;
+}
+
+/*==================advantages - end==================*/
+
 
 /*==================правила для MAIN - end==================*/
 
@@ -213,4 +271,4 @@ ul.social-icons a:hover{
 }
 
 
-/*5 00-11*/
+/*6 00-00*/
