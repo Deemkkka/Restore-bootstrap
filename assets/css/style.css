@@ -350,6 +350,11 @@ ul.social-icons a:hover{
     text-decoration: line-through;
     font-size: 0.8rem;
 }
+
+.owl-carousel-full .owl-item img {
+    display: inline-block;
+    width: auto;
+}
 /*==================product card - end==================*/
 
 /*==================Featured products - end==================*/
@@ -374,4 +379,4 @@ ul.social-icons a:hover{
 }
 
 
-/*6 00-45*/
+/*8 00-00*/
